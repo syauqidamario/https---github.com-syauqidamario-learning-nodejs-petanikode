@@ -1,0 +1,34 @@
+"dependencies" berisi keterangan modul & library yang dibutuhkan app.
+"devDependencies" berisi keterangan modul/library yg dibutuhkan untuk pengembangan app
+"npm install namamodul --save-dev" artinya modul gulp akan diinstall ke devDependencies, modul yang dibutuhkan untuk pengembangan aplikasi.
+"npm uninstall <modul>" itu untuk uninstall
+cek command-command di npm -l 
+
+Modul = library, sama-sama berisi fungsi-fungsi untuk aplikasi.
+
+Contoh modul-modul bawaan Nodejs:
+-http, untuk HTTP Request dan membuat server
+-fs, untuk bekerja menggunakan file system
+-url, utk parsing string dari url
+-querystring, untuk bekerja dengan query string
+
+Nama objek tidak harus selalu sama dengan nama modul, tapi biar mudah ya disamakan saja
+
+Ada method yang digunakan untuk membuat file:
+-fs.appendFile() => untuk buat & isi file
+-fs.open() untuk membuat, membuka, dan menulis file
+-fs.writeFile() untuk membuat dan menulis file.
+
+Flag yang dapat diberikan ke fs.open() selain r & w:
+-r membuka file yg dibaca
+-r+ membuka file utk dibaca + ditulis
+-rs buka file utk dibaca dalam mode synchronous
+-rs+ buka file utk dibaca & ditulis dalam synchronous
+-w buka file utk ditulis
+-wx sama aja kayak w tapi error kalau ada filenya
+-w+ buka file utk ditulis + dibaca
+-wx+ sama kayak w+ tapi bisa error kalau ada filenya 
+-a buka file utk diisi
+-ax sama kayak a tapi error kalo udh ada filenya 
+-a+ buka file utk diisi
+-ax+ sama kayak a+ tapi error kalau sudah ada filenya
