@@ -41,3 +41,6 @@ Modul query string => untuk parsing query string
 Contoh query string:
 foo=bar&abc=xyz&abc=123
 
+Ada dua modul untuk upload file di Nodejs: formidable dan mv
+-formidable itu emg khusus untuk ambil data dari form utk upload file.
+-mv itu utk pindahin file dari direktori sementara ke folder project
