@@ -32,3 +32,12 @@ Flag yang dapat diberikan ke fs.open() selain r & w:
 -ax sama kayak a tapi error kalo udh ada filenya 
 -a+ buka file utk diisi
 -ax+ sama kayak a+ tapi error kalau sudah ada filenya
+
+querystring = beda dengan url.
+
+Modul url => parsing URL, tapi di situ ada fungsi utk parse query string, query string ini dari URL.
+Modul query string => untuk parsing query string
+
+Contoh query string:
+foo=bar&abc=xyz&abc=123
+
